@@ -1,0 +1,86 @@
+
+:root {
+    --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+
+.headerstyle {
+    border: 3px solid #FFB000;
+    padding: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: lightgrey;
+    width: 200px;
+    color: darkred;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.income-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+}
+
+.remove-item {
+    background-color: #ff6464;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.remove-item:hover {
+    background-color: #ff0000;
+}
+
+.desc {
+    flex: 2;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.price {
+    flex: 1;
+    text-align: right;
+}
+
+.date {
+    flex: 1;
+    text-align: right;
+    font-style: italic;
+}
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.list li {
+    background-color: #EAD7BB;
+    box-shadow: var(--box-shadow);
+    color: darkred;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.list li.plus {
+    border-right: 5px solid #2ecc71;
+}
+
+.list li.minus {
+    border-right: 5px solid #ECB365;
+}
